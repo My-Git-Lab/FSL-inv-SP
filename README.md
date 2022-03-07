@@ -3,7 +3,7 @@ Lin-Jin Yang, Chang-Xin Nai, Guo-Bin Liu, Kai-Lun Lai, Shuo-Yang Gao, Kai-Da Zhe
 
 This is the code implemented by Lin-Jin Yang based on ***Pytorch***. You can use this code, combined with the pole-pole device method, to inverse the self-potential data and get the approximate location of the source. The code does not require high computing resources. Even without a good GPU, you can use an ordinary CPU to run this program.
 
-## How to get the result you want
+## How to get the results we need
 1): use ***pre-training.py*** to get trained model.
 
 Please note that the training data is produced by ***COMSOL Multiphysics***. Before running the program, please modify the path part of the code to point to the relevant data in your computer. For example:
