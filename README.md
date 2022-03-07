@@ -16,7 +16,7 @@ torch.save(net1, "YOUR PATH AND MODEL.pth")
 ```
 You can use your own training data and different hyper-parameter combinations. At the same time, for the convenience of readers' reference, we uploaded our own pre-trained model, and you can also use ***pre-trained model.pth***
 
-![...](https://github.com/My-Git-Lab/FSL-inv-SP/blob/main/Fig5.jpg)
+![...](https://github.com/My-Git-Lab/FSL-inv-SP/blob/main/1.jpg)
 
 2): use ***fine-tuning.py*** to get more accurate results.
 
@@ -26,7 +26,7 @@ net1 = torch.load('YOUR PRE-TRAINED MODEL.pth')
 ...
 ```
 
-![...](https://github.com/My-Git-Lab/FSL-inv-SP/blob/main/Fig6.jpg)
+![...](https://github.com/My-Git-Lab/FSL-inv-SP/blob/main/2.jpg)
 
 ## Saving results and drawing
 
