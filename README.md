@@ -36,4 +36,6 @@ plt.plot(data_loss)
 
 ## A test
 
-If you want to quickly view the results of this method, we also provide a small case. You can run ***test.py*** directly in ***PyCharm Community Edition*** and you should be able to get the results as same as Fig.test.jpg:
+If you want to quickly view the results of this method, we also provide a small case. You can run ***test.py*** directly in ***PyCharm Community Edition***.
+
+More details can be found in manuscript.
