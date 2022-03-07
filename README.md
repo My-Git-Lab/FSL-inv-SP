@@ -14,7 +14,7 @@ pos_2 = np.array(pd.read_excel("YOUR PATH"))
 torch.save(net1, "YOUR PATH AND MODEL.pth")
 ...
 ```
-You can use your own training data and different hyper-parameter combinations. At the same time, for the convenience of readers' reference, we uploaded our own pre-trained model, and you can also use ***small case/pre-trained model.pth***
+You can use your own training data and different hyper-parameter combinations. At the same time, for the convenience of readers' reference, we uploaded our own pre-trained model, so you can also use ***small case/pre-trained model.pth***
 
 2): use ***fine-tuning.py*** to get more accurate results.
 
