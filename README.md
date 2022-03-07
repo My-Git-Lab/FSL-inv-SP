@@ -4,9 +4,9 @@ Lin-Jin Yang, Chang-Xin Nai, Guo-Bin Liu, Kai-Lun Lai, Shuo-Yang Gao, Kai-Da Zhe
 This is the code implemented by Lin-Jin Yang based on ***Pytorch***. You can use this code, combined with the pole-pole device method, to inverse the self-potential data and get the approximate location of the source. The code does not require high computing resources. Even without a good GPU, you can use an ordinary CPU to run this program.
 
 ## How to get the result you want
-**1):** use ***pre-training.py*** to get trained model.
+1): use ***pre-training.py*** to get trained model.
 
-Please note that the training data is produced by ***COMSOL Multiphysics 5.5***. Before running the program, please modify the path part of the code to point to the relevant data in your computer. For example:
+Please note that the training data is produced by ***COMSOL Multiphysics***. Before running the program, please modify the path part of the code to point to the relevant data in your computer. For example:
 ```
 pos_1 = np.array(pd.read_excel("YOUR PATH"))
 pos_2 = np.array(pd.read_excel("YOUR PATH"))
@@ -16,13 +16,17 @@ torch.save(net1, "YOUR PATH AND MODEL.pth")
 ```
 You can use your own training data and different hyper-parameter combinations. At the same time, for the convenience of readers' reference, we uploaded our own pre-trained model, and you can also use ***pre-trained model.pth***
 
-**2):** use ***fine-tuning.py*** to get more accurate results.
+![...](https://github.com/My-Git-Lab/FSL-inv-SP/blob/main/Fig5.jpg)
+
+2): use ***fine-tuning.py*** to get more accurate results.
 
 If you want to predict the real scene data more accurately, you also need to fine tune the model obtained in the previous step. Similarly, you need to modify the path to point to the corresponding file:
 ```
 net1 = torch.load('YOUR PRE-TRAINED MODEL.pth')
 ...
 ```
+
+![...](https://github.com/My-Git-Lab/FSL-inv-SP/blob/main/Fig6.jpg)
 
 ## Saving results and drawing
 
